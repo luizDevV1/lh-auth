@@ -84,23 +84,23 @@ const data = AuthFormData;
 
 const list_types_access = [
   {
-    tooltip: "Acessar com Facebook",
+    tooltip: "Continuar com Facebook",
     icon: `fa-brands fa-facebook-f`,
   },
   {
-    tooltip: "Acessar com Instagram",
+    tooltip: "Continuar com Instagram",
     icon: `fa-brands fa-instagram`,
   },
   {
-    tooltip: "Acessar com Google mail",
+    tooltip: "Continuar com Google mail",
     icon: `fa-brands fa-google`,
   },
   {
-    tooltip: "Acessar com Twitter",
+    tooltip: "Continuar com Twitter",
     icon: `fa-brands fa-twitter`,
   },
   {
-    tooltip: "Acessar com Linkedin",
+    tooltip: "Continuar com Linkedin",
     icon: `fa-brands fa-linkedin-in`,
   },
 ];

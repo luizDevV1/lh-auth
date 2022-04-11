@@ -13,7 +13,7 @@ class AuthFormData {
 
     setTimeout(() => {
       Loading.hide();
-    }, 1_500);
+    }, 2_500);
   }
 }
 
