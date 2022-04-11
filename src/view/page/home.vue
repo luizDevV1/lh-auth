@@ -1,10 +1,7 @@
 <template>
   <div id="lh-auth">
     <q-card class="lh-auth-card wh-100 bg-transparent shadow-10">
-      <q-card-section class="lh-auth-card__menu q-gutter-y-md column">
-        <q-btn flat>Entrar</q-btn>
-        <q-btn flat>Cadastrar</q-btn>
-      </q-card-section>
+      <q-card-section class="lh-auth-card__menu q-gutter-y-md column" />
 
       <q-card-section class="lh-auth-card__form q-pa-none q-ma-none">
         <auth-form class="wh-100" />
