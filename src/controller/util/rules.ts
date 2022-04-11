@@ -1,7 +1,5 @@
 export class Rules {
-  public required = (args: string, no_required = false): true | string => {
-    if (no_required) return true;
-
+  public required = (args: string): true | string => {
     return (!!args && args.length > 0) || "Campo Obrigatório!";
   };
 }
