@@ -1,0 +1,334 @@
+* {
+  box-sizing: border-box;
+}
+
+.font-8em {
+  font-size: clamp(8px, 1rem, 2rem);
+}
+
+.font-9em {
+  font-size: clamp(9px, 1rem, 2rem);
+}
+
+.font-10em {
+  font-size: clamp(10px, 1rem, 2rem);
+}
+
+.font-11em {
+  font-size: clamp(11px, 1rem, 2rem);
+}
+
+.font-12em {
+  font-size: clamp(12px, 1rem, 2rem);
+}
+
+.font-13em {
+  font-size: clamp(13px, 1rem, 2rem);
+}
+
+.font-14em {
+  font-size: clamp(14px, 1rem, 2rem);
+}
+
+.font-15em {
+  font-size: clamp(15px, 1rem, 2rem);
+}
+
+.font-16em {
+  font-size: clamp(16px, 1rem, 2rem);
+}
+
+.font-17em {
+  font-size: clamp(17px, 1rem, 2rem);
+}
+
+.font-18em {
+  font-size: clamp(18px, 1rem, 2rem);
+}
+
+.font-19em {
+  font-size: clamp(19px, 1rem, 2rem);
+}
+
+.font-20em {
+  font-size: clamp(20px, 1rem, 2rem);
+}
+
+.font-21em {
+  font-size: clamp(21px, 1rem, 2rem);
+}
+
+.font-22em {
+  font-size: clamp(22px, 1rem, 2rem);
+}
+
+.font-23em {
+  font-size: clamp(23px, 1rem, 2rem);
+}
+
+.font-24em {
+  font-size: clamp(24px, 1rem, 2rem);
+}
+
+.font-25em {
+  font-size: clamp(25px, 1rem, 2rem);
+}
+
+.font-26em {
+  font-size: clamp(26px, 1rem, 2rem);
+}
+
+.font-27em {
+  font-size: clamp(27px, 1rem, 2rem);
+}
+
+.font-28em {
+  font-size: clamp(28px, 1rem, 2rem);
+}
+
+.font-29em {
+  font-size: clamp(29px, 1rem, 2rem);
+}
+
+.font-30em {
+  font-size: clamp(30px, 1rem, 2rem);
+}
+
+.font-31em {
+  font-size: clamp(31px, 1rem, 2rem);
+}
+
+.font-32em {
+  font-size: clamp(32px, 1rem, 2rem);
+}
+
+.font-33em {
+  font-size: clamp(33px, 1rem, 2rem);
+}
+
+.font-34em {
+  font-size: clamp(34px, 1rem, 2rem);
+}
+
+.font-35em {
+  font-size: clamp(35px, 1rem, 2rem);
+}
+
+.font-36em {
+  font-size: clamp(36px, 1rem, 2rem);
+}
+
+.font-37em {
+  font-size: clamp(37px, 1rem, 2rem);
+}
+
+.font-38em {
+  font-size: clamp(38px, 1rem, 2rem);
+}
+
+.font-39em {
+  font-size: clamp(39px, 1rem, 2rem);
+}
+
+.font-40em {
+  font-size: clamp(40px, 1rem, 2rem);
+}
+
+.font-41em {
+  font-size: clamp(41px, 1rem, 2rem);
+}
+
+.font-42em {
+  font-size: clamp(42px, 1rem, 2rem);
+}
+
+.font-43em {
+  font-size: clamp(43px, 1rem, 2rem);
+}
+
+.font-44em {
+  font-size: clamp(44px, 1rem, 2rem);
+}
+
+.font-45em {
+  font-size: clamp(45px, 1rem, 2rem);
+}
+
+.font-46em {
+  font-size: clamp(46px, 1rem, 2rem);
+}
+
+.font-47em {
+  font-size: clamp(47px, 1rem, 2rem);
+}
+
+.font-48em {
+  font-size: clamp(48px, 1rem, 2rem);
+}
+
+.font-49em {
+  font-size: clamp(49px, 1rem, 2rem);
+}
+
+.font-50em {
+  font-size: clamp(50px, 1rem, 2rem);
+}
+
+.font-51em {
+  font-size: clamp(51px, 1rem, 2rem);
+}
+
+.font-52em {
+  font-size: clamp(52px, 1rem, 2rem);
+}
+
+.font-53em {
+  font-size: clamp(53px, 1rem, 2rem);
+}
+
+.font-54em {
+  font-size: clamp(54px, 1rem, 2rem);
+}
+
+.font-55em {
+  font-size: clamp(55px, 1rem, 2rem);
+}
+
+.font-56em {
+  font-size: clamp(56px, 1rem, 2rem);
+}
+
+.font-57em {
+  font-size: clamp(57px, 1rem, 2rem);
+}
+
+.font-58em {
+  font-size: clamp(58px, 1rem, 2rem);
+}
+
+.font-59em {
+  font-size: clamp(59px, 1rem, 2rem);
+}
+
+.font-60em {
+  font-size: clamp(60px, 1rem, 2rem);
+}
+
+.font-61em {
+  font-size: clamp(61px, 1rem, 2rem);
+}
+
+.font-62em {
+  font-size: clamp(62px, 1rem, 2rem);
+}
+
+.font-63em {
+  font-size: clamp(63px, 1rem, 2rem);
+}
+
+.font-64em {
+  font-size: clamp(64px, 1rem, 2rem);
+}
+
+.font-65em {
+  font-size: clamp(65px, 1rem, 2rem);
+}
+
+.font-66em {
+  font-size: clamp(66px, 1rem, 2rem);
+}
+
+.font-67em {
+  font-size: clamp(67px, 1rem, 2rem);
+}
+
+.font-68em {
+  font-size: clamp(68px, 1rem, 2rem);
+}
+
+.font-69em {
+  font-size: clamp(69px, 1rem, 2rem);
+}
+
+.font-70em {
+  font-size: clamp(70px, 1rem, 2rem);
+}
+
+.font-71em {
+  font-size: clamp(71px, 1rem, 2rem);
+}
+
+.font-72em {
+  font-size: clamp(72px, 1rem, 2rem);
+}
+
+.font-73em {
+  font-size: clamp(73px, 1rem, 2rem);
+}
+
+.font-74em {
+  font-size: clamp(74px, 1rem, 2rem);
+}
+
+.font-75em {
+  font-size: clamp(75px, 1rem, 2rem);
+}
+
+.font-76em {
+  font-size: clamp(76px, 1rem, 2rem);
+}
+
+.font-77em {
+  font-size: clamp(77px, 1rem, 2rem);
+}
+
+.font-78em {
+  font-size: clamp(78px, 1rem, 2rem);
+}
+
+.font-79em {
+  font-size: clamp(79px, 1rem, 2rem);
+}
+
+.font-80em {
+  font-size: clamp(80px, 1rem, 2rem);
+}
+
+.font-81em {
+  font-size: clamp(81px, 1rem, 2rem);
+}
+
+.font-82em {
+  font-size: clamp(82px, 1rem, 2rem);
+}
+
+.font-83em {
+  font-size: clamp(83px, 1rem, 2rem);
+}
+
+.font-84em {
+  font-size: clamp(84px, 1rem, 2rem);
+}
+
+.font-85em {
+  font-size: clamp(85px, 1rem, 2rem);
+}
+
+.font-86em {
+  font-size: clamp(86px, 1rem, 2rem);
+}
+
+.font-87em {
+  font-size: clamp(87px, 1rem, 2rem);
+}
+
+.font-88em {
+  font-size: clamp(88px, 1rem, 2rem);
+}
+
+.wh-100 {
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=global.css.map */
