@@ -3,6 +3,7 @@
     <div class="column">
       <b class="font-21em q-pt-sm q-pl-sm text-accent">Bem vindo</b>
 
+      <!--<editor-fold desc="Username">-->
       <q-input
         class="q-pb-md q-px-sm"
         v-model="email"
@@ -16,6 +17,7 @@
           <q-icon class="fa-solid fa-user-tie" />
         </template>
       </q-input>
+      <!--</editor-fold>-->
 
       <q-input
         class="q-py-md q-px-sm"
