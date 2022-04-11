@@ -3,6 +3,8 @@ import { Loading, QSpinnerFacebook } from "quasar";
 
 class AuthFormData {
   public login(login: LoginInterface) {
+    console.log(login);
+
     Loading.show({
       spinner: QSpinnerFacebook,
       message: "Aguarde",
@@ -11,7 +13,7 @@ class AuthFormData {
 
     setTimeout(() => {
       Loading.hide();
-    }, 3_000);
+    }, 1_500);
   }
 }
 
