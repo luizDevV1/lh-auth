@@ -1,10 +1,23 @@
 <template>
   <div id="lh-auth">
     <q-card class="lh-auth-card wh-100 bg-transparent shadow-10">
-      <q-card-section class="lh-auth-card__menu q-gutter-y-md column" />
+      <q-card-section class="lh-auth-card__menu q-gutter-y-md column">
+        <q-btn @click="action = 'SING_IN'" dense flat align="left">
+          <q-icon class="fa-solid fa-sign-in" left size="xs" />
+          <span class="q-ml-sm">Entrar</span>
+        </q-btn>
 
-      <q-card-section class="lh-auth-card__form q-pa-none q-ma-none">
-        <auth-form class="wh-100" />
+        <q-btn @click="action = 'NEW_USER'" dense flat align="left">
+          <q-icon class="fa-solid fa-user-plus" left size="xs" />
+          <span class="q-ml-sm">Cadastrar</span>
+        </q-btn>
+      </q-card-section>
+
+      <q-card-section class="lh-auth-card__form q-pa-none q-ma-none overflow-auto">
+        <transition-group appear transition-show="jump-down" transition-hide="jump-up">
+          <auth-form v-if="action === 'SING_IN'" class="wh-100" />
+          <manager-user v-else class="wh-100" />
+        </transition-group>
       </q-card-section>
     </q-card>
   </div>
@@ -12,6 +25,10 @@
 
 <script lang="ts" setup>
 import AuthForm from "../components/auth-form.vue";
+import ManagerUser from "../components/manager-user.vue";
+import { ref } from "vue";
+
+const action = ref<"SING_IN" | "NEW_USER">("SING_IN");
 </script>
 
 <style lang="scss" scoped>
@@ -32,7 +49,7 @@ import AuthForm from "../components/auth-form.vue";
   display: grid;
 
   grid-template-rows: 1fr;
-  grid-template-columns: minmax(130px, 150px) 1fr;
+  grid-template-columns: minmax(130px, 180px) 1fr;
   grid-template-areas: "menu form";
 
   &__menu {

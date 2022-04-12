@@ -16,7 +16,7 @@
         :rules="[rules.required]"
       >
         <template #prepend>
-          <q-icon class="fa-solid fa-user-tie" />
+          <q-icon class="fa-solid fa-user-tie" size="xs" />
         </template>
       </q-input>
       <!--</editor-fold>-->
@@ -35,7 +35,7 @@
         :rules="[rules.required]"
       >
         <template #prepend>
-          <q-icon class="fa-solid fa-fingerprint" />
+          <q-icon class="fa-solid fa-fingerprint" size="xs" />
         </template>
       </q-input>
       <!--</editor-fold>-->
