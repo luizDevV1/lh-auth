@@ -57,7 +57,7 @@
 
       <div class="q-py-md q-px-sm flex justify-center">
         <template v-for="(item, index) in list_types_access" :key="`btn-access-using${index}`">
-          <q-btn color="primary" size="md" class="q-mx-xs">
+          <q-btn color="primary" size="md" class="q-mx-xs lh-hover-scale">
             <q-icon :class="item.icon" />
 
             <q-tooltip v-text="item.tooltip" />
@@ -106,4 +106,10 @@ const list_types_access = [
 ];
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.lh-hover-scale {
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+</style>
