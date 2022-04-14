@@ -14,10 +14,12 @@
       </q-card-section>
 
       <q-card-section class="lh-auth-card__form q-pa-none q-ma-none overflow-auto">
-        <transition-group appear transition-show="jump-down" transition-hide="jump-up">
+        <scrolling>
+          <!--          <template #default>-->
           <auth-form v-if="action === 'SING_IN'" class="wh-100" />
           <manager-user v-else class="wh-100" />
-        </transition-group>
+          <!--          </template>-->
+        </scrolling>
       </q-card-section>
     </q-card>
   </div>
@@ -26,6 +28,8 @@
 <script lang="ts" setup>
 import AuthForm from "../components/auth-form.vue";
 import ManagerUser from "../components/manager-user.vue";
+import Scrolling from "../components/scrolling.vue";
+
 import { ref } from "vue";
 
 const action = ref<"SING_IN" | "NEW_USER">("SING_IN");
